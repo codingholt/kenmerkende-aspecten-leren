@@ -25,7 +25,7 @@ function App() {
   <div className='container'>
     <Header/>
     {/* <h1>Leer de kenmermerkende aspecten.</h1> */}
-    <Question question='Lorem'/>
+    <Question question='God staat niet meer centraal, en er wordt gedacht met een rede, kunstenaars focustusten zich minder op god maar meer op de mens en natuur. Welk kenmerkend aspect past hierbij?'/>
     <UserInput/>
     <Footer/>
   </div>

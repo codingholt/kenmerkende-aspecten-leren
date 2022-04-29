@@ -1,41 +1,41 @@
 {
 "Tijdvak 5 (1500-1600)":{
     "1":{
-        "question" : "",
+        "question" : "Welk kenmerkend aspect past het best bij: Ontdekkingsreizen om de macht te vergroten, meer handel, kolonisatie en de verspreiding Christendom",
         "answer": "Begin Europese overzeese expansie"
     },
     "2":{
-        "question": "",
+        "question": "De mens als individu komt centraal te staan, maar de kerk blijft belangrijker ook kan je spreken van een wedergeboorte van de klassieke kunst. Welk kenmerkend aspect past hierbij?",
         "answer":"Renaissance"
     },
     "3":{
-        "question": "",
+        "question": "God staat niet meer centraal, en er wordt gedacht met een rede, kunstenaars focustusten zich minder op god maar meer op de mens en natuur. Welk kenmerkend aspect past hierbij?",
         "answer":"Hernieuwde oriëntatie op klassieke Oudheid"
     },
     "4":{
-        "question":"",
+        "question":"Werk kenmerkend aspect past het best bij: Groeiende kritiek op de rooms-katholieke kerk, en onstaan van splitsingen van de katholieke kerk.",
         "answer":"Protestantse reformatie"
     },
     "5":{
-        "question":"",
+        "question":"Wat wordt geleid door Willen van Oranje en wordt ook wel de Tachtigjarige Oorlog genoemd?",
         "answer":"Nederlandse Opstand"
     }
 },  
 "Tijdvak 6 (1600-1700)":{
     "6":{ 
-        "question": "",   
+        "question": "Welk kenmerkend aspect past het best bij: Vorsten die meer macht willen.",   
         "answer":"Absolutisme"
     },
     "7":{
-        "question":"",
+        "question":"Hoe heette de periode waarin amsterdam uitgroeide tot een van de belangrijkste handelssteden na de val van antwerpen? ",
         "answer":"De Gouden Eeuw"
     },
     "8":{
-        "question": "",
+        "question": "Wat past bij de driehoekshandel?",
         "answer":"Begin van de wereldeconomie"
     },   
     "9":{
-        "question":"",
+        "question":"Een nieuwe manier van denken: door middel van systematisch observeren, logisch redeneren experimenteren proberen om meer kennis te vergaren? Welk kenmerkend aspect past hierbij?",
         "answer":"De wetenschappelijke revolutie"
     }
      
