@@ -1,12 +1,28 @@
 {
-    "Tijdvak 5 (1500-1600)":[
-        "Begin Europese overzeese expansie",
-        "Renaissance",
-        "Hernieuwde oriëntatie op klassieke Oudheid",
-        "Protestantse reformatie",
-        "Nederlandse Opstand"
-    ],
-    "Tijdvak 6 (1600-1700)":[
+    "Tijdvak 5 (1500-1600)":{
+    "1":{
+        "question" : "",
+        "answer": "Begin Europese overzeese expansie"
+    },
+    "2":{
+        "question": "",
+        "answer":"Renaissance"
+    },
+    "3":{
+        "question": "",
+        "answer":"Hernieuwde oriëntatie op klassieke Oudheid"
+    },
+    "4":{
+        "question":"",
+        "answer":"Protestantse reformatie"
+    },
+    "5":{
+        "question":"",
+        "answer":"Nederlandse Opstand"
+    }
+
+    }
+    ,   "Tijdvak 6 (1600-1700)":[
         "Absolutisme",
         "De Gouden Eeuw",
         "Begin van de wereldeconomie",
