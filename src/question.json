@@ -1,5 +1,5 @@
 {
-    "Tijdvak 5 (1500-1600)":{
+"Tijdvak 5 (1500-1600)":{
     "1":{
         "question" : "",
         "answer": "Begin Europese overzeese expansie"
@@ -20,45 +20,128 @@
         "question":"",
         "answer":"Nederlandse Opstand"
     }
-
+},  
+"Tijdvak 6 (1600-1700)":{
+    "6":{ 
+        "question": "",   
+        "answer":"Absolutisme"
+    },
+    "7":{
+        "question":"",
+        "answer":"De Gouden Eeuw"
+    },
+    "8":{
+        "question": "",
+        "answer":"Begin van de wereldeconomie"
+    },   
+    "9":{
+        "question":"",
+        "answer":"De wetenschappelijke revolutie"
     }
-    ,   "Tijdvak 6 (1600-1700)":[
-        "Absolutisme",
-        "De Gouden Eeuw",
-        "Begin van de wereldeconomie",
-        "De wetenschappelijke revolutie"
-    ],
-    "Tijdvak 7 (1700-1800)":[
-        "De Verlichting",
-        "Het ancien régime en verlicht absolutisme",
-        "Slavernij en abolitionisme",
-        "De democratische revoluties"
-],
-    "Tijdvak 8 (1800-1900)":[
-        "De opkomst van politiek-maatschappelijke stromingen",
-        "De voortschrijdende democratisering (Kiesstrijd)",
-        "De Industriële Revolutie",
-        "Discussies over sociale kwestie",
-        "De opkomst van emancipatiebewegingen",
-        "Modern Imperialisme"
-    ],
-    "Tijdvak 9 (1900-1950)":[
-        "Het voeren van twee wereldoorlogen",
-        "Massavernietigingswapens en de betrokkenheid van de burgerbevolking",
-        "De crisis van het wereldkapitalisme",
-        "Totalitaire ideologieën: communisme, fascisme en nationaal-socialisme",
-        "Opkomst van communicatie- en propagandamiddelen",
-        "Verzet tegen Westers Imperialisme",
-        "De genocide / Holocaust",
-        "De Duitse bezetting van Nederland"
-    ],
-    "Tijdvak 10 (1950-heden)":[
-        "Dekolonisatie",
-        "De Koude Oorlog",
-        "Europese eenwording/integratie",
-        "Multiculturele samenlevingen",
-        "Toenemende westerse welvaart en sociaal-culturele veranderingen"
-    ]
+     
+},
+"Tijdvak 7 (1700-1800)":{
+    "10":{
+        "question":"",
+        "answer":"De Verlichting"
+        },
+    "11":{
+        "question":"",
+        "answer":"Het ancien régime en verlicht absolutisme"
+    },
+    "12":{
+        "question":"",
+        "answer":"Slavernij en abolitionisme"
+    },
+    "13":{
+        "answer":"",
+        "question":"De democratische revoluties"
+    }
+    },
+
+    "Tijdvak 8 (1800-1900)":{
+    "14":{ 
+      "question":"",
+      "answer":"De opkomst van politiek-maatschappelijke stromingen"
+    },
+    "15":{
+        "question":"",
+        "answer":"De voortschrijdende democratisering (Kiesstrijd)"
+    },
+    "16:":{
+        "question":"",
+        "answer":"De Industriële Revolutie"
+    },
+    "17":{
+        "question":"",
+        "answer":"Discussies over sociale kwestie"
+    },
+    "18":{
+        "question":"",
+        "answer":"De opkomst van emancipatiebewegingen"
+    },
+    "20":{
+        "question":"",
+        "answer":"Modern Imperialisme"
+    }
+        
+    },
+"Tijdvak 9 (1900-1950)":{
+    "21":{
+        "question":"",
+        "answer":"Het voeren van twee wereldoorlogen"
+    },
+    "22":{
+        "question":"",
+        "answer":"Massavernietigingswapens en de betrokkenheid van de burgerbevolking"
+    },
+    "23":{
+        "question":"",
+        "answer":"De crisis van het wereldkapitalisme"
+    },
+    "24":{
+        "question":"",
+        "answer": "Totalitaire ideologieën: communisme, fascisme en nationaal-socialisme"
+    },
+    "25":{
+        "question":"",
+        "answer":"Opkomst van communicatie- en propagandamiddelen"
+    },
+    "26":{
+        "question":"",
+        "answer":"Verzet tegen Westers Imperialisme"
+    },
+    "27":{
+        "question":"",
+        "answer":"De genocide / Holocaust"
+    },
+    "28":{
+        "question":"",
+        "answer":"De Duitse bezetting van Nederland"
+    }
+},
+"Tijdvak 10 (1950-heden)":{
+    "29":{    
+        "question":"",
+        "answer":"Dekolonisatie"
+    },
+    "30":{
+        "question":"",
+        "answer":"De Koude Oorlog"
+    },
+    "31":{
+        "question":"",
+        "answer":"Europese eenwording/integratie"
+    },
+    "32":{
+        "question":"",
+        "answer":"Multiculturele samenlevingen"
+    },
+    "33":{
+        "question":"",
+        "answer":"Toenemende westerse welvaart en sociaal-culturele veranderingen"
+    }
+}
     }
     
 
