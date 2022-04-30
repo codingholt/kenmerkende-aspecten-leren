@@ -1,5 +1,6 @@
 import './App.css';
 import'terminal.css'
+import axios form 'axios'
 import { useState, useEffect } from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
