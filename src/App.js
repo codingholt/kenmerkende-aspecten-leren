@@ -1,6 +1,8 @@
 import './App.css';
 import'terminal.css'
 import axios from 'axios'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { useState, useEffect } from 'react';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -14,26 +16,37 @@ const getQuestion = async () =>{
   return question.data
 }
 
-const FalseAnswer = () =>
-  <div className="terminal-alert terminal-alert-error">Sorry, je antwoord is fout</div>;
-
-const CorrectAnswer = () =>
-  <div className="terminal-alert terminal-alert-error">Goed Antwoord!</div>;
 
 
 function App() {
   const [question, setQuestion] = useState('')
   const [input, setInput] = useState('')
-  const [showErr, setShowErr] = useState()
+
 
   const checkAnswer = (input) => {
     if(input === question.answer){
-      setShowErr(false)
+      toast.success('Goed geantwoord 🎉', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+      })
       getQuestion().then((response) => setQuestion(response))
     }
-    setShowErr(true)
-
-  }
+    else{toast.error('Sorry, je hebt het fout, probeer het opnieuw', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+  })
+}
+}
 
 
   useEffect(() => {
@@ -61,7 +74,9 @@ function App() {
     
        
     </div>
-     {showErr ? <FalseAnswer/> : console.log('👍')}
+   
+     <ToastContainer />
+
     <Footer/>
   </div>
   );
