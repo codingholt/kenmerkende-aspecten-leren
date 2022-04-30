@@ -24,7 +24,7 @@ function App() {
 
 
   const checkAnswer = (input) => {
-    if(input === question.answer){
+    if(input.toLowerCase() === question.answer.toLowerCase()){
       toast.success('Goed geantwoord 🎉', {
         position: "top-right",
         autoClose: 5000,
@@ -34,6 +34,7 @@ function App() {
         draggable: true,
         progress: undefined,
       })
+      setInput('')
       getQuestion().then((response) => setQuestion(response))
     }
     else{toast.error('Sorry, je hebt het fout, probeer het opnieuw', {
@@ -45,6 +46,7 @@ function App() {
       draggable: true,
       progress: undefined,
   })
+  setInput('')
 }
 }
 
