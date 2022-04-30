@@ -6,13 +6,13 @@ const Header = () => {
     <div className="terminal-logo">
       <div className="logo terminal-prompt"><a href="#" className="no-style">Kenmerkende Aspecten</a></div>
     </div>
-    <nav className="terminal-menu">
+    {/* <nav className="terminal-menu">
       <ul>
         <li><a className="menu-item" href="#">option 1</a></li>
         <li><a className="menu-item" href="#">option 2</a></li>
         <li><a className="menu-item" href="#">option 3</a></li>
       </ul>
-    </nav>
+    </nav> */}
 </div>
   )
 }
