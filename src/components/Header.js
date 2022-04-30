@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div className="terminal-nav">
     <div className="terminal-logo">
-      <div className="logo terminal-prompt"><a href="#" className="no-style">Kenmerkende Aspecten</a></div>
+      <div className="logo terminal-prompt">Kenmerkende Aspecten</div>
     </div>
     {/* <nav className="terminal-menu">
       <ul>
