@@ -64,15 +64,15 @@ function App() {
   return (
   <div className='container'>
     <Header/>
-    {/* <h1>Leer de kenmermerkende aspecten.</h1> */}
     <Question question={question.question}/>
+    
     <div className='input_wrapper'>
           
         <input value={input} type="text" placeholder='kenmerkend aspect' className='text_input block' onChange={ handleInput }>
 
         </input>
 
-        <button type="submit" className='btn btn-primary btn-block' onClick={() => {checkAnswer(input)}}>Submit answer</button>
+        <button type="submit" className='btn btn-primary btn-block' onClick={() => {checkAnswer(input)}}>Antwoord</button>
     
        
     </div>
