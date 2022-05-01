@@ -4,7 +4,7 @@ import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState, useEffect } from 'react';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Header from './components/Header';
 import Question from './components/Question';
 
@@ -63,23 +63,24 @@ function App() {
   }
   return (
   <div className='container'>
+    <div className='content-wrap'>
     <Header/>
-    {/* <h1>Leer de kenmermerkende aspecten.</h1> */}
     <Question question={question.question}/>
+    
     <div className='input_wrapper'>
           
         <input value={input} type="text" placeholder='kenmerkend aspect' className='text_input block' onChange={ handleInput }>
 
         </input>
 
-        <button type="submit" className='btn btn-primary btn-block' onClick={() => {checkAnswer(input)}}>Submit answer</button>
+        <button type="submit" className='btn btn-primary btn-block' onClick={() => {checkAnswer(input)}}>Antwoord</button>
     
        
     </div>
    
      <ToastContainer />
-
-    <Footer/>
+    </div>
+    {/* <Footer className='ftr'/> */}
   </div>
   );
 }

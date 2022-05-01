@@ -1,18 +1,19 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="terminal-nav">
     <div className="terminal-logo">
-      <div className="logo terminal-prompt">Kenmerkende Aspecten</div>
+      <div className="logo terminal-prompt"><Link to="/">Kenmerkende Aspecten</Link></div>
     </div>
-    {/* <nav className="terminal-menu">
+    <nav className="terminal-menu">
       <ul>
-        <li><a className="menu-item" href="#">option 1</a></li>
-        <li><a className="menu-item" href="#">option 2</a></li>
-        <li><a className="menu-item" href="#">option 3</a></li>
+        <li><Link to="/">Oefen</Link></li>
+        
+        <li><Link to="/answeroptions">Antwoord mogelijkheden</Link></li>
+
       </ul>
-    </nav> */}
+    </nav>
 </div>
   )
 }
