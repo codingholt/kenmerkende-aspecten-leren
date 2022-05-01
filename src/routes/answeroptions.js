@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css';
 import axios from 'axios';
-import Footer from '../components/Footer';
+// import Footer from '../components/Footer';
 import { useEffect, useState } from 'react';
 import Header from '../components/Header';
 import'terminal.css'
@@ -31,7 +31,8 @@ const Answeroptions = () => {
                     }
 
             </ul>
-        <Footer/>
+        {/* <Footer className='ftr'/> */}
+    
     </div>
   )
 }

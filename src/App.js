@@ -4,7 +4,7 @@ import axios from 'axios'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState, useEffect } from 'react';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import Header from './components/Header';
 import Question from './components/Question';
 
@@ -63,6 +63,7 @@ function App() {
   }
   return (
   <div className='container'>
+    <div className='content-wrap'>
     <Header/>
     <Question question={question.question}/>
     
@@ -78,8 +79,8 @@ function App() {
     </div>
    
      <ToastContainer />
-
-    <Footer/>
+    </div>
+    {/* <Footer className='ftr'/> */}
   </div>
   );
 }
