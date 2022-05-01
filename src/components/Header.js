@@ -8,7 +8,7 @@ const Header = () => {
     </div>
     <nav className="terminal-menu">
       <ul>
-        <li><Link to="/">Leer</Link></li>
+        <li><Link to="/">Oefen</Link></li>
         
         <li><Link to="/answeroptions">Antwoord mogelijkheden</Link></li>
 
