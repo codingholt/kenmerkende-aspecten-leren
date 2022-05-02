@@ -109,6 +109,7 @@ const getSuggestion = async (input) => {
         <input value={input} type="text" placeholder='kenmerkend aspect' className='text_input block' onChange={ handleInput }>
 
         </input>
+        {showsuggestion ? <div class="terminal-alert">Bedoelde je: '<strong>{suggestion}</strong>'</div> : '' }
 
         <button type="submit" className='btn btn-primary btn-block' onClick={() => {checkAnswer(input)}}>Antwoord</button>
     
@@ -116,7 +117,6 @@ const getSuggestion = async (input) => {
     </div>
    
      <ToastContainer />
-    {showsuggestion ? <div class="terminal-alert">Bedoelde je: {suggestion}</div> : '' }
 
     </div>
     {/* <Footer className='ftr'/> */}
