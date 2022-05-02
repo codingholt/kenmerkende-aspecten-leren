@@ -52,3 +52,12 @@ footer {
 .text_input{
   width: 100%;
 }
+
+
+.terminal-alert{
+  margin-top: 1.5rem;
+}
+.lightBulb{
+  text-align: left;
+  display: flex;
+}
