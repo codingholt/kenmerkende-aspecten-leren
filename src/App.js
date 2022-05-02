@@ -19,28 +19,41 @@ const getQuestion = async () =>{
 
 }
 
-const getSuggestion = async (input) => {
-  const list = await axios.get('https://ka-backend.herokuapp.com/questions/');
-  const data = list.data
-
-  const options = {
-    includeScore: true,
-    // 
-    keys: ['answer']
-  }
-
-  const fuse = new Fuse(data, options)
-  console.log(input)
-  const search = await fuse.search(input)
-  console.log(search)
-
-}
 
 
 
 function App() {
   const [question, setQuestion] = useState('')
   const [input, setInput] = useState('')
+  const [showsuggestion, setShowSuggestion] =  useState(false)
+  const [suggestion, setSuggestion] =  useState('')
+
+
+const getSuggestion = async (input) => {
+  const list = await axios.get('https://ka-backend.herokuapp.com/questions/');
+  const data = list.data
+
+  const options = {
+    includeScore: true,
+    threshold: 0.8,
+    keys: ['answer']
+
+    // 
+  }
+
+  const fuse = new Fuse(data, options)
+  console.log(input)
+  const search = await fuse.search(input)
+  console.log(search)
+  if(search[0]['score'] < 0.22){
+    setShowSuggestion(true)
+    setSuggestion(search[0]['item']['answer'])
+  }else{
+    setShowSuggestion(false)
+    console.log('answer false, not a matching suggestion found')
+    return;
+  }
+}
 
 
   const checkAnswer = async (input) => {
@@ -54,6 +67,8 @@ function App() {
         draggable: true,
         progress: undefined,
       })
+      setShowSuggestion(false)
+      setSuggestion('')
       setInput('')
       getQuestion().then((response) => setQuestion(response))
     }
@@ -101,6 +116,8 @@ function App() {
     </div>
    
      <ToastContainer />
+    {showsuggestion ? <div class="terminal-alert">Bedoelde je: {suggestion}</div> : '' }
+
     </div>
     {/* <Footer className='ftr'/> */}
   </div>
