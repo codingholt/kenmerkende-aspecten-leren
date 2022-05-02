@@ -45,7 +45,7 @@ const getSuggestion = async (input) => {
   console.log(input)
   const search = await fuse.search(input)
   console.log(search)
-  if(search[0]['score'] < 0.22){
+  if(search[0]['score'] < 0.37){
     setShowSuggestion(true)
     setSuggestion(search[0]['item']['answer'])
   }else{
@@ -109,7 +109,7 @@ const getSuggestion = async (input) => {
         <input value={input} type="text" placeholder='kenmerkend aspect' className='text_input block' onChange={ handleInput }>
 
         </input>
-        {showsuggestion ? <div class="terminal-alert">Bedoelde je: '<strong>{suggestion}</strong>'</div> : '' }
+        {showsuggestion ? <div class="terminal-alert"> <div className='lightBulb'>💡</div>Bedoelde je: '<cite>{suggestion}</cite>'</div> : '' }
 
         <button type="submit" className='btn btn-primary btn-block' onClick={() => {checkAnswer(input)}}>Antwoord</button>
     

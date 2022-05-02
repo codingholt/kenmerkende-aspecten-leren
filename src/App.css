@@ -57,3 +57,7 @@ footer {
 .terminal-alert{
   margin-top: 1.5rem;
 }
+.lightBulb{
+  text-align: left;
+  display: flex;
+}
