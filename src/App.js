@@ -38,19 +38,17 @@ const getSuggestion = async (input) => {
     threshold: 0.8,
     keys: ['answer']
 
-    // 
   }
 
   const fuse = new Fuse(data, options)
   console.log(input)
   const search = await fuse.search(input)
-  console.log(search)
+
   if(search[0]['score'] < 0.37){
     setShowSuggestion(true)
     setSuggestion(search[0]['item']['answer'])
   }else{
     setShowSuggestion(false)
-    console.log('answer false, not a matching suggestion found')
     return;
   }
 }
