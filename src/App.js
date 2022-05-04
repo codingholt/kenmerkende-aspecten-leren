@@ -41,7 +41,7 @@ const getSuggestion = async (input) => {
   }
 
   const fuse = new Fuse(data, options)
-  console.log(input)
+ 
   const search = await fuse.search(input)
 
   if(search[0]['score'] < 0.37){
