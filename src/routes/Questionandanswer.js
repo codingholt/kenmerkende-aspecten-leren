@@ -27,7 +27,7 @@ const Questionandanswer = () => {
                 
                     {
                     question.map(q => {
-                        return <p><li>{q.question} <ul><li>{q.answer}</li></ul></li></p>
+                        return <li><p>{q.question} <ul><li>{q.answer}</li></ul></p></li>
 
                     })
                     
