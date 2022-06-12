@@ -16,7 +16,7 @@ const qa = [
 		},
 		{
 			"id": "4",
-			"question": "Werk kenmerkend aspect past het best bij: Groeiende kritiek op de rooms-katholieke kerk, en onstaan van splitsingen van de katholieke kerk.",
+			"question": "Werk kenmerkend aspect past het best bij: Groeiende kritiek op de rooms-katholieke kerk, en ontstaan van splitsingen van de katholieke kerk.",
 			"answer": "Protestantse reformatie"
 		},
 		{
