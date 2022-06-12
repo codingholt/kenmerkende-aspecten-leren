@@ -1,10 +1,11 @@
 import './App.css';
 import'terminal.css'
-import axios from 'axios'
+
 import { ToastContainer, toast } from 'react-toastify';
+import {qa} from './db.js'
 import 'react-toastify/dist/ReactToastify.css';
 import { useState, useEffect } from 'react';
-// import Footer from './components/Footer';
+
 import Header from './components/Header';
 import Question from './components/Question';
 import Fuse from 'fuse.js';
@@ -12,10 +13,10 @@ import Fuse from 'fuse.js';
 
 
 const getQuestion = async () =>{
-  const randomNumber = Math.floor(Math.random() * (32 - 1) + 1)
-  const question = await axios.get(`https://ka-backend.herokuapp.com/questions/${randomNumber}`)
+  const randomNumber = Math.floor(Math.random() * qa.length)
+  const question = qa[randomNumber]
 
-  return question.data
+  return question
 
 }
 
@@ -28,10 +29,20 @@ function App() {
   const [showsuggestion, setShowSuggestion] =  useState(false)
   const [suggestion, setSuggestion] =  useState('')
 
+  useEffect(()=>{
+
+    const getSet = async () =>{
+    setQuestion( await getQuestion());
+    }
+
+
+    getSet()
+      .catch((err)=>(console.error(err)))
+  },[])
 
 const getSuggestion = async (input) => {
-  const list = await axios.get('https://ka-backend.herokuapp.com/questions/');
-  const data = list.data
+
+  const data = qa
 
   const options = {
     includeScore: true,
@@ -85,12 +96,6 @@ const getSuggestion = async (input) => {
 }
 }
 
-
-  useEffect(() => {
-
-    getQuestion().then((response) => setQuestion(response))
-
-  }, [])
 
   const handleInput = (e) =>{
     e.preventDefault();
