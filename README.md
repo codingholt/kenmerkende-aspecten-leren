@@ -1,4 +1,5 @@
 # Kenmerkende Aspecten
-## Todo
-- [ ] Move the backend to a file on the frontend.
-- [ ] 
+
+Een simpele webapp om de Kenmerkende Aspecten voor de havo te leren.
+
+Tip: Hou de antwoord mogelijkheden als je begint met oefenen erbij.
