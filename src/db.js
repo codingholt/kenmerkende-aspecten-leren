@@ -71,7 +71,7 @@ const qa = [
 		},
 		{
 			"id": "15",
-			"question": "Bij welk kenmerkend aspect past het censuskiesrecht (mensen die een bepaald bedrag aan belasting betalen mogen kiezen.)",
+			"question": "Bij welk kenmerkend aspect past het censuskiesrecht (mensen die een bepaald bedrag aan belasting betalen mogen stemmen.)",
 			"answer": "De voortschrijdende democratisering (Kiesstrijd)"
 		},
 		{
@@ -81,12 +81,12 @@ const qa = [
 		},
 		{
 			"id": "17",
-			"question": "Welk kenmerkend aspect past bij: vraagstuk over wat er moet gebeuren met de slechte positie van de arbeiders, een gevolg van de Industriële Revolutie.",
+			"question": "Welk kenmerkend aspect past bij het vraagstuk over wat er moet gebeuren met de slechte positie van de arbeiders, een gevolg van de Industriële Revolutie.",
 			"answer": "Discussies over sociale kwestie"
 		},
 		{
 			"id": "18",
-			"question": "De komst van de bewegingen in dit kenmerkend aspect werd gestimuleerd door de volgende kwesties: schoolstrijd, de kiesrechtkwestie en de sociale kwestie",
+			"question": "Uit de volgende gebeurtennisen, stroomde dit kenmerkend aspect voort: schoolstrijd, de kiesrechtkwestie en de sociale kwestie. Welk kenmerkend aspect is dit?",
 			"answer": "De opkomst van emancipatiebewegingen"
 		},
 		{
@@ -101,7 +101,7 @@ const qa = [
 		},
 		{
 			"id": "21",
-			"question": "Welk kenmerkend aspect past bij: De atoombommen op Hiroshima en Nagasaki?",
+			"question": "Welk kenmerkend aspect past bij: De atoombommen op Hiroshima en Nagasaki",
 			"answer": "Massavernietigingswapens en de betrokkenheid van de burgerbevolking"
 		},
 		{
@@ -111,7 +111,7 @@ const qa = [
 		},
 		{
 			"id": "23",
-			"question": "Welk kenmerkend aspect past bij: Een staat die het leven van de burgers in alle aspecten beheerst?",
+			"question": "Welk kenmerkend aspect past bij: Het leven van de burgers in alle aspecten beheersen",
 			"answer": "Totalitaire ideologieen"
 		},
 		{
