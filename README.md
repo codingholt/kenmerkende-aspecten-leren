@@ -1,5 +1,5 @@
 # Kenmerkende Aspecten
 
-Een simpele webapp om de Kenmerkende Aspecten voor de havo te leren.
+Een simpele webapp om de Kenmerkende Aspecten voor havo te leren.
 
-Tip: Hou de antwoord mogelijkheden als je begint met oefenen erbij.
+Tip: Houd de antwoordmogelijkheden als je begint met oefenen erbij.
