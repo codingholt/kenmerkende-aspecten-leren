@@ -10,7 +10,7 @@ const Header = () => {
       <ul>
         <li><Link to="/">Oefen</Link></li>
         
-        <li><Link to="/answeroptions">Antwoord mogelijkheden</Link></li>
+        <li><Link to="/answeroptions">Antwoordmogelijkheden</Link></li>
         <li><Link to="/qanda">Vragen en Antwoorden</Link></li>
       </ul>
     </nav>
